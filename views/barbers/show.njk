@@ -1,0 +1,45 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<div class="card">
+
+    <section class="avatar"
+        style="background:url({{ barber.avatar_url}}) no-repeat center center/ cover">
+    </section>
+
+    <section class="details">
+
+        <h3>Detalhes</h3>
+
+        <div class="item">
+            <div>Barbeiro</div>
+            <div>{{ barber.name }}</div>
+        </div>
+
+        <div class="item">
+            <div>Idade</div>
+            <div>{{ barber.age }}</div>
+        </div>
+
+
+        <div class="item">
+            <div>Especialidades</div>
+            <div> 
+                {% for specialty in barber.specialtys %}
+                <span>{{ specialty }}</span> 
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Desde</div>
+            <div>{{ barber.create_at }}</div>
+        </div>
+
+        <a href="/barbers/{{ barber.id }}/edit" class="button">Editar</a>
+
+    </section>
+</div>
+
+{% endblock %}

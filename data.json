@@ -1,0 +1,22 @@
+{
+  "clients": [
+    {
+      "avatar_url": "https://images.unsplash.com/photo-1553531580-a000ac8df244?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80",
+      "name": "Renata",
+      "email": "renata@gmail.com",
+      "birth": 951177600000,
+      "gender": "F",
+      "id": 1
+    }
+  ],
+  "barbers": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1553531580-a000ac8df244?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80",
+      "name": "Lucas",
+      "birth": 903830400000,
+      "specialtys": "Cabelo",
+      "create_at": 1591028846461
+    }
+  ]
+}

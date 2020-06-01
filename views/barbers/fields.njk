@@ -1,0 +1,47 @@
+<div class="item">
+                <div>IMAGE URL</div>
+                <div>
+                    <input 
+                    type="url"
+                    name="avatar_url" 
+                    placeholder="http://..."
+                    value="{{ barber.avatar_url}}"
+                     >
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Barbeiro</div>
+                <div>
+                    <input 
+                    type="text" 
+                    name="name" 
+                    placeholder="Name"
+                    value="{{ barber.name }}"
+                    >
+                </div>
+            </div>
+
+             <div class="item">
+                <div>Data de Aniversário</div>
+                <input 
+                type="date" 
+                name="birth"
+                value="{{ barber.birth }}"
+                >
+            </div>
+
+
+            <div class="item">
+                <div>Especialidade</div>
+                <div> 
+                    <input 
+                    type="text" 
+                    name="specialtys" 
+                    placeholder="Especialidades"
+                    value="{{ barber.specialtys }}"
+                    >
+                </div>
+            </div>
+
+            <button type="submit">Salvar</button>

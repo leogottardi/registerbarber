@@ -1,0 +1,30 @@
+{% extends "layout.njk" %}
+
+
+{% block content %}
+
+<div class="card table-container">
+    <a href="/barbers/create">Novo</a>
+    <table width="100%">
+        <thead>
+            <tr>
+                <th>Barbeiro</th>
+                <th>Serviços</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for barber in barbers %}
+            <tr>
+                <td>
+                <span style="background-image: url({{barber.avatar_url}})"></span>
+                {{barber.name}}</td>
+                <td>{{barber.specialtys}}</td>
+                <td><a href="/barbers/{{barber.id}}">Ver</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}
