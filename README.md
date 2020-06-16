@@ -11,7 +11,7 @@
 
 ## 📑 Sobre
 
-O projeto é um site de **Cadastro** de clientes e barbeiros que foi criado dentro do curso **Bootcamp Launchbase**.
+O projeto é um site de **Cadastro** de Clientes e Barbeiros que foi criado dentro do curso **Bootcamp Launchbase**.
 
 ---
 
