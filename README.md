@@ -28,7 +28,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias :
     $ git clone https://github.com/leogottardi/registerbarber.git
 
     #Entrar no diretório
-    $ git cd registerbarber
+    $ cd registerbarber
 
     #Instalar as dependencias
     $ yarn install / npm install
